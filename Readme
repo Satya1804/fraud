@@ -1,0 +1,28 @@
+# Fraud Detection in Financial Transactions
+
+This project demonstrates an advanced fraud detection system using both unsupervised and supervised techniques. The goal is to detect unusual patterns in transactional data by combining:
+- **Unsupervised learning:** Autoencoder for anomaly detection.
+- **Supervised learning:** Ensemble methods (e.g., Random Forest) for fraud classification.
+- **Feature Engineering:** Creating new features from raw data to improve model performance.
+
+## Project Structure
+
+- **data/**: Contains raw and processed data.
+- **notebooks/**: Jupyter notebooks for exploratory data analysis.
+- **src/**: Source code for the project.
+  - **data_preprocessing.py**: Data loading and cleaning.
+  - **feature_engineering.py**: Feature engineering functions.
+  - **models/**
+    - **autoencoder.py**: Code for building and training an autoencoder.
+    - **supervised_model.py**: Code for training a supervised fraud detection model.
+  - **utils.py**: Utility functions for plotting and evaluation.
+- **tests/**: Unit tests for verifying code functionality.
+- **main.py**: Orchestrates the data processing, model training, and evaluation.
+- **requirements.txt**: List of required packages.
+
+## Setup Instructions
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/fraud_detection_project.git
+   cd fraud_detection_project
